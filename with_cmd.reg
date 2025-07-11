@@ -1,7 +1,8 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\*\shell\Send to VirusTotal]
-@="Send to VirusTotal"
+[HKEY_CLASSES_ROOT\*\shell\Scan with VirusTotal]
+"Icon"="C:\\path\\to\\virustotal-uploader\\vtfu.ico"
+@="Scan with VirusTotal"
 
-[HKEY_CLASSES_ROOT\*\shell\Send to VirusTotal\command]
-@="\"C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe\" \"C:\\Users\\<user>\\Desktop\\main.py\" -file \"%1\""
+[HKEY_CLASSES_ROOT\*\shell\Scan with VirusTotal\command]
+@="\"C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe\" \"C:\\path\\to\\virustotal-uploader\\main.py\" -file \"%1\""
