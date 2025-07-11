@@ -7,8 +7,8 @@ This program allows you to quickly send files to VirusTotal for analysis. By int
 Before using this program, make sure you have the following:
 
 - Python3
-- Liblaries from `requirements.txt`
-- API key from VirusTotal. (You can obtain an API key by creating an account on the VirusTotal website. See the image below.)
+- Libraries from `requirements.txt`
+- API key from VirusTotal. (You can obtain a free API key by creating an account on the VirusTotal website. See the image below.)
 
 ![image](https://github.com/Weyaxi/virustotal-uploader/assets/81961593/302f911e-0a7d-4886-a1aa-99efac1a9939)
 
@@ -19,7 +19,7 @@ Before using this program, make sure you have the following:
 1. Clone the repository to your local machine or download the source code.
 
    ```shell
-   git clone https://github.com/Weyaxi/virustotal-uploader/
+   git clone https://github.com/1aTa/virustotal-uploader/
    ```
 
 2. Navigate to the appropriate directory by executing the following command:
@@ -49,7 +49,7 @@ The program will upload the file to VirusTotal and open the analysis results in 
 
 # Context Menu Integration
 
-To add a "Send to VirusTotal" option to the right-click context menu in Windows Explorer, follow these steps:
+To add a "Scan with VirusTotal" option to the right-click context menu in Windows Explorer, follow these steps:
 
 1. Open the `with_cmd.reg` or `without_cmd.reg` file (depending on whether you want to open a command prompt while sending the file) in a text editor.
 
@@ -57,7 +57,7 @@ To add a "Send to VirusTotal" option to the right-click context menu in Windows 
 
 3. Save the changes and double-click the registry file to merge the changes into the Windows Registry.
 
-Right-click any file in Windows Explorer and select "Send to VirusTotal". The program will upload the file to VirusTotal and open the analysis results.
+Right-click any file in Windows Explorer and select "Scan with VirusTotal". The program will upload the file to VirusTotal and open the analysis results.
 
 ![image](https://github.com/Weyaxi/virustotal-uploader/assets/81961593/721366ab-d2c7-49c0-9aa5-e6bc012e374b)
 
