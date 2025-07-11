@@ -59,7 +59,7 @@ To add a "Scan with VirusTotal" option to the right-click context menu in Window
 
 Right-click any file in Windows Explorer and select "Scan with VirusTotal". The program will upload the file to VirusTotal and open the analysis results.
 
-![image](https://github.com/Weyaxi/virustotal-uploader/assets/81961593/721366ab-d2c7-49c0-9aa5-e6bc012e374b)
+<img width="430" height="763" alt="Screenshot 2025-07-11 105750" src="https://github.com/user-attachments/assets/8ca87dff-0637-4558-a327-5ff455e1c4c4" />
 
 ## Demo
 
